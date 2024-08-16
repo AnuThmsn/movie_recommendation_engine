@@ -1,4 +1,52 @@
+.container {
+  display: flex;
+  justify-content: space-between; /* Distribute space between the boxes */
+  align-items: center; /* Align items vertically in the center */
+  gap: 1rem; /* Optional: Add some space between the boxes */
+  padding: 1rem; /* Optional: Add padding inside the container */
+  
+}
+.c{
+  height:100vh;
+  width: 100%;
+  background: linear-gradient(45deg,#1e0101,#3c0000,#610202,#7d0202);
+  background-size: 300% 300%;
+  animation: color 12s ease-in-out infinite;
+}
+@keyframes color{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
 
+.box2 {
+  flex:60%;
+  text-align: left; /* Align text to the left in box2 */
+}
+
+.box1 {
+  flex:40%;
+  padding-top:5%;
+  padding-bottom:5%;
+  text-align: center; /* Align text to the right in box1 */
+}
+.box2 h1{
+  color: #FFFFFF;
+}
+.box2 h3{
+  color: #FFFFFF;
+  font-weight: 100;
+}
+.box1 div{
+  height:500px;
+  background-color: #e0dbdbca;
+}
  .button-64 {
     align-items: center;
     background-image: linear-gradient(144deg,#630404, #8e0606 50%,#af0e0e);
@@ -47,3 +95,4 @@
       min-width: 196px;
     }
   }
+  
