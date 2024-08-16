@@ -9,7 +9,7 @@
 .c{
   height:100vh;
   width: 100%;
-  background: linear-gradient(45deg,#1e0101,#3c0000,#610202,#7d0202);
+  background: linear-gradient(45deg,#1e0101,#3c0000,#330101,#000000);
   background-size: 300% 300%;
   animation: color 12s ease-in-out infinite;
 }
